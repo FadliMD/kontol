@@ -33,7 +33,7 @@ global.nomer = 'https://wa.me/6281251549899' //ganti jadi nomor mu
 global.price1 = '*List sewa*\n\n》PERMANEN Rp 10.000\nMAKSIMAL 2 GRUP\n》PERMANEN  Rp 20.000\nMAKSIMAL 6 GRUP \n》1 BULAN Rp 5.000\nMAKSIMAL 1 GRUP'
 
 //=======『 Tampilan Dan Lainnya 』============//
-global.fotonya1 = 'https://telegra.ph/file/5da3cd5d775775f5e8791.jpg' //ganti jadi foto bot mu
+global.fotonya1 = './media/zyrexx.jpg' //ganti jadi foto bot mu
 global.fotonya2 = 'https://telegra.ph/file/5da3cd5d775775f5e8791.jpg' //ini juga ganti pakai foto bot mu
 global.fotonya3 = 'https://telegra.ph/file/5da3cd5d775775f5e8791.jpg' //ini juga ganti
 global.fotonya4 = 'https://telegra.ph/file/5da3cd5d775775f5e8791.jpg' //ini juga ganti
