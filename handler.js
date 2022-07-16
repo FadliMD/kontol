@@ -781,7 +781,7 @@ global.dfail = (type, m, conn) => {
     rowner: `╭─֍〔 ıll *ACCES DENIED* llı 〕֍─
 ⬡ Perintah ini hanya untuk developer bot
 ╰─────────────────֍`,
-    owner: `╭─֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕֍─
+    owner: `╭─֍〔 ıll *ACCESS DENIED* llı 〕֍─
 ⬡ Perintah ini hanya untuk owner bot
 ╰─────────────────֍`,
     mods: `╭─֍〔 ıll *ACCES DENIED* llı 〕֍─
