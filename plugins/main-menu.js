@@ -23,20 +23,20 @@ let moment = require('moment-timezone')
 const defaultMenu = {
   before:`
 ╭──〔  *INFO USER*  〕─⬣
-│⬡ ```USER``` : *%name*
-│⬡ ```LIMIT``` : *%limit* LIMIT
-│⬡ ```ROLE``` : *%role*
-│⬡ ```LEVEL``` : *%level (%exp / %maxexp)* 
-│⬡ ```EXP``` : *%totalexp* EXP
+│⬡ USER : *%name*
+│⬡ LIMIT : *%limit* LIMIT
+│⬡ ROLE : *%role*
+│⬡ LEVEL : *%level (%exp / %maxexp)* 
+│⬡ EXP : *%totalexp* EXP
 ┌──〔  *TODAY*  〕───⬣
-│⬡ ```TODAY``` : *%week %weton* 
-│⬡ ```DATE``` : *%date*
-│⬡ ```DATE ISLAMIC``` : *%dateIslamic*
-│⬡ ```TIME``` : *%time*
+│⬡ TODAY : *%week %weton* 
+│⬡ DATE : *%date*
+│⬡ DATE ISLAMIC : *%dateIslamic*
+│⬡ TIME : *%time*
 ┌──〔  *DATABASE*  〕───⬣
-│⬡ ```UPTIME``` : *%uptime*
-│⬡ ```DATABASE``` : %rtotalreg 𝚍𝚊𝚛𝚒 %totalreg 
-│⬡ ```MEMORY USED``` : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+│⬡ UPTIME : *%uptime*
+│⬡ DATABASE : %rtotalreg 𝚍𝚊𝚛𝚒 %totalreg 
+│⬡ MEMORY USED : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 ╰─────────────⬣
 %readmore`.trimStart(), 
   header: '╭─❑ 〔 %category 〕 ❑─\n┃',
