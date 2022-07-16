@@ -9,7 +9,7 @@ item1.TEL;waid=6283861623360@s.whatsapp.net
 item1.X-ABLabel:owner selalu ada 
 item2.EMAIL;type=INTERNET: asuslebewwww@gmail.com
 item2.X-ABLabel:📧Email
-item3.ADR:;;🎍KANDANGAN;;;;
+item3.ADR:;;🎍BUKITTINGGI;;;;
 item3.X-ABADR:ac
 item3.X-ABLabel:asal kota
 item4.URL:https://github.com/asukayang7
