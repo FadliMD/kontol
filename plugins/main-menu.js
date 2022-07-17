@@ -35,7 +35,7 @@ const defaultMenu = {
 │⬡ TIME : *%time*
 ┌──〔  *DATABASE*  〕───⬣
 │⬡ UPTIME : *%uptime*
-│⬡ DATABASE : %rtotalreg 𝚍𝚊𝚛𝚒 %totalreg 
+│⬡ DATABASE : %rtotalreg DARI %totalreg 
 │⬡ MEMORY USED : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 ╰─────────────⬣
 %readmore`.trimStart(), 
@@ -314,144 +314,144 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
               {
       
              "rows": [{
-                  "title": ` 🧝⟩⟩» OWNER BOT`,
+                  "title": `OWNER BOT`,
                   "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
-                  "title": '🪄⟩⟩» BUAT LOGO',
+                  "title": 'BUAT LOGO',
                   "description": "Menampilkan Menu logo",
                   "rowId": `.textpro`
                  },{
-                 "title": '💌⟩⟩» SEWA BOT',
+                 "title": 'SEWA BOT',
                   "description": "sewa bot untuk grup.",
                   "rowId": `.sewazifa`
                  },{
-              	"title": `💬⟩⟩» RULES BOT`,
+              	"title": `RULES BOT`,
                   "description": "Rules Yang Harus Di Patuhi User Shinn",
                   "rowId": `.snk`
                 }],
-                "title": "⟣─────────❲ 𝗜 𝗡 𝗙 𝗢 ❳──────────⟢"
+                "title": "⟣─────────❲ ALL ❳──────────⟢"
               }, {
                 "rows": [{
-                  "title": `⋮☰|🏫|┅MENU———๑〘 ALL 〙`,
+                  "title": `All`,
                   "description": "Menampilkan Menu All",
                   "rowId": '.? all'
                  }],
-                "title": "⟣─────────❲ 𝗔 𝗟 𝗟 ❳──────────⟢"
+                "title": "⟣─────────❲ MENU ❳──────────⟢"
                   }, {
                   "rows": [{
-                  "title": "⋮☰|📝|┅MENU———๑〘 1 〙",
+                  "title": "Absen",
                   "description": "Menampilkan Menu Absen",
                   "rowId": `${_p}? absen`
                 }, {
-                  "title": "⋮☰|⛩️|┅MENU———๑〘 2 〙",
+                  "title": "Anime",
                   "description": "Menampilkan Menu Anime",
                   "rowId": `${_p}? anime`
                 }, {
-                  "title": "⋮☰|🎟️|┅MENU———๑〘 3 〙",
+                  "title": "Sticker",
                   "description": "Menampilkan Menu Sticker",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "⋮☰|📺|┅MENU———๑〘 4 〙",
+                  "title": "Download",
                   "description": "Menampilkan Menu Downloader",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "⋮☰|📈|┅MENU———๑〘 5 〙",
+                  "title": "Exp",
                   "description": "Menampilkan Menu Exp",
                   "rowId": `${_p}? xp`
                 }, {
-                  "title": "⋮☰|🎡|┅MENU———๑〘 6 〙",
+                  "title": "Fun",
                   "description": "Menampilkan Menu Fun",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "⋮☰|🕹️|┅MENU———๑〘 7 〙",
+                  "title": "Game",
                   "description": "Menampilkan Menu Game",
                   "rowId": `${_p}? game`
                 }, {
-                  "title": "⋮☰|🔮|┅MENU———๑〘 8 〙",
+                  "title": "Github",
                   "description": "Menampilkan Menu Github",
                   "rowId": `${_p}? github`
                 }, {
-                  "title": "⋮☰|🏢|┅MENU———๑〘 9 〙",
+                  "title": "Group",
                   "description": "Menampilkan Menu Group",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "⋮☰|🖼️|┅MENU———๑〘 10 〙",
+                  "title": "Image",
                   "description": "Menampilkan Menu Image",
                   "rowId": `${_p}? image`
                 }, {
-                  "title": "⋮☰|📡|┅MENU———๑〘 11 〙",
+                  "title": "Internet",
                   "description": "Menampilkan Menu Internet",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "⋮☰|🕌|┅MENU———๑〘 12 〙",
+                  "title": "Islamic",
                   "description": "Menampilkan Menu Islam",
                   "rowId": `${_p}? islam`
                 }, {
-                  "title": "⋮☰|🐚|┅MENU———๑〘 13 〙",
+                  "title": "Kerang ajaib",
                   "description": "Menampilkan Menu Kerang",
                   "rowId": `${_p}? kerang`
                 }, {
-                  "title": "⋮☰|✒️|┅MENU———๑〘 14 〙",
+                  "title": "Maker",
                   "description": "Menampilkan Menu Maker",
                   "rowId": `${_p}? maker`                
                 }, {
-                  "title": "⋮☰|🎙️|┅MENU———๑〘 15 〙",
+                  "title": "Voice changer",
                   "description": "Menampilkan Menu Voice Changer",
                   "rowId": `${_p}? suara`
                 }, {
-                  "title": "⋮☰|📔|┅MENU———๑〘 16 〙",
+                  "title": "Premium",
                   "description": "Menampilkan Menu Premium",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "⋮☰|📨|┅MENU———๑〘 17 〙",
+                  "title": "Quotes",
                   "description": "Menampilkan Menu Quotes",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "⋮☰|🌱|┅MENU———๑〘 18 〙",
+                  "title": "Rpg",
                   "description": "Menampilkan Menu Rpg",
                   "rowId": `${_p}? rpg`
                 }, {
-                  "title": "⋮☰|🐾|┅MENU———๑〘 19 〙",
+                  "title": "Stalker",
                   "description": "Menampilkan Menu Stalker",
                   "rowId": `${_p}? stalk`
                 }, {
-                  "title": "⋮☰|🔗|┅MENU———๑〘 20 〙",
+                  "title": "Short link",
                   "description": "Menampilkan Menu Short Link",
                   "rowId": `${_p}? shortlink`
                 }, {
-                  "title": "⋮☰|👨‍🔧|┅MENU———๑〘 21 〙",
+                  "title": "Tools",
                   "description": "Menampilkan Menu Tools",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "⋮☰|📄|┅MENU———๑〘 22 〙",
+                  "title": "Text maker",
                   "description": "Menampilkan Maker Text",
                   "rowId": `${_p}? text`
                 }, {
-                  "title": "⋮☰|🧼|┅MENU———๑〘 23 〙",
+                  "title": "Hentai",
                   "description": "Menampilkan Menu Hentai",
                   "rowId": `${_p}? nsfw`
                 }, {
-                  "title": "⋮☰|☀️|┅MENU———๑〘 24 〙",
+                  "title": "Random",
                   "description": "Menampilkan Menu Random/Gabut",
                   "rowId": `${_p}? random`
                 }, {
-                  "title": "⋮☰|☃️|┅MENU———๑〘 25 〙",
+                  "title": "Text pro",
                   "description": "Menampilkan Text Pro Menu",
                   "rowId": `${_p}? textpro`
                 }, {
-                  "title": "⋮☰|💈|┅MENU———๑〘 26 〙",
+                  "title": "Oxy photo",
                   "description": "Menampilkan Photo Oxy Menu",
                   "rowId": `${_p}? textpro`
                 }],
-                "title": "⟣─────────❲ 𝗟 𝗜 𝗦 𝗧 ❳──────────⟢"
+                "title": "⟣─────────❲ OWNER ❳──────────⟢"
                 }, {
               	"rows": [{
-                  "title": "⋮☰|🐻|┅MENU———๑〘 owner 〙",
+                  "title": "Owner",
                   "description": "Menampilkan Menu Owner",
                   "rowId": `${_p}? owner`
                   }],
-                "title": "⟣─────────❲ 𝗢 𝗡 𝗟 𝗬 ❳──────────⟢"
+                "title": "⟣─────────❲ UTAMA ❳──────────⟢"
               }  
             ], "contextInfo": {
               "stanzaId": m.key.id,
@@ -525,35 +525,35 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             hydratedFooterText: wm2, 
             hydratedButtons: [{
             urlButton: {
-               displayText: '🔮INSTAGRAM🔮',
+               displayText: 'INSTAGRAM',
                url: webm
              }
 
            },
              {
              urlButton: {
-               displayText: '🎮GROUP BOT🎮', 
+               displayText: 'GROUP BOT', 
                url: gc
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '🧸 Owner',
+               displayText: 'Owner',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-        displayText: '💳 Sewa',
+        displayText: 'Sewa',
                id: '.sewazifa',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: 'Group Offcial',
+               displayText: 'Group',
                id: '.gcbot',
              }
            }]
