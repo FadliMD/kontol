@@ -12,24 +12,24 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: '```jika mau masuk via link aja kak….```',
+           hydratedFooterText: '```jika mau masuk via link aja kak….```\n```gak mau jg gpp```',
            hydratedButtons: [{
              urlButton: {
                displayText: 'Via link gc',
-               url: 'https://chat.whatsapp.com/'
+               url: 'https://chat.whatsapp.com/KGRJ7i0M2DL0WKqKabNUey'
              }
 
            },
                 {
                urlButton: {
                displayText: 'Wa owner',
-               url: 'https://wa.me/message/LSVGQQPG6FUQF1'
+               url: 'https://chat.whatsapp.com/KGRJ7i0M2DL0WKqKabNUey'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'sewa',
+               displayText: 'Sewa',
                id: '.sewazifa',
              }
              
